@@ -3,7 +3,7 @@ body{
   padding-top: 40px;
   color: #e2e9be;
   background-color: #2e85b4;
-  overscroll-behavior: contain;
+  overscroll-behavior: none;
 }
 
 
