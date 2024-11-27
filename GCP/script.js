@@ -9,3 +9,5 @@ var currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
+
+window.addEventListener("scroll",(e)=> (e.enable = false))
