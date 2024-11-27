@@ -3,11 +3,9 @@ body{
   padding-top: 40px;
   color: #e2e9be;
   background-color: #2e85b4;
-}
-
-body:root {
   overscroll-behavior: none;
 }
+
 
 #navbar {
   background-color: #0c234b;
