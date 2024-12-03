@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  margin-bottom: 20px;
   padding-top: 40px;
   color: #e2e9be;
   background-color: #2e85b4;
@@ -57,7 +58,7 @@ body{
 }
 
 #generel-info div{
-  border-radius: 5px;
+  border-radius: 14px;
   margin-bottom: 20px;
   padding: 5px;
   text-align: left;

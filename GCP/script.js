@@ -1,4 +1,4 @@
-var prevScrollpos = window.pageYOffset;
+/*var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
@@ -73,4 +73,4 @@ function stopOverscroll(element) {
   scroller.style.overscrollBehavior = "none";
 }
 
-stopOverscroll();
+stopOverscroll();*/
