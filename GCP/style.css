@@ -74,3 +74,17 @@ h2, h3 {
 iframe {
   overflow: hidden;
 }
+
+.layout-container{
+  columns: 2;
+  width: 92%;
+  column-gap: 10px;
+  margin: auto;
+}
+
+
+.layout-container img{
+  width: 12em;
+  border-radius: 14px;
+  margin-bottom: 10px;
+}
