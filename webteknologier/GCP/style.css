@@ -76,15 +76,15 @@ iframe {
 }
 
 .layout-container{
-  columns: 2;
-  width: 92%;
+  column-count: 2;
   column-gap: 10px;
   margin: auto;
+  overflow-x: hidden;
 }
 
 
 .layout-container img{
-  width: 12em;
+  width: 11em;
   border-radius: 14px;
   margin-bottom: 10px;
 }
