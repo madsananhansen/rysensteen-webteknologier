@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR code</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+      }
+      h1 {
+        font-family: "Archivo black";
+        text-align: center;
+        color: rgb(84, 11, 14);
+        font-size: 4em;
+      }
+      .qr-container {
+        margin: auto;
+        text-align: center;
+      }
+
+      .qr-container img {
+        border-radius: 10%;
+      }
+
+      .back {
+        font-family: "Archivo black";
+        margin: 30px;
+        background-color: rgb(51, 92, 103);
+        width: fit-content;
+        padding: 20px;
+        border-radius: 40px;
+        color: white;
+        transition: filter 0.3s;
+      }
+
+      .back:hover {
+        filter: hue-rotate(150deg);
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="back"><a href="projekter.html">Tilbage</a></div>
+    <h1>Her er QR-coden til vores Boston Tour Guide</h1>
+    <div class="qr-container"><img src="billeder/qr.png" width="30%" /></div>
+  </body>
+</html>
