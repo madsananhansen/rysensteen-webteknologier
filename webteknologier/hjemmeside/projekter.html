@@ -11,7 +11,12 @@
       href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="projekter.css" />
+    <link rel="stylesheet" href="code-color.css">
   </head>
   <body>
     <div class="topnav">
@@ -45,109 +50,179 @@
     <h1>Projekter</h1>
     <div class="projects-container">
       <div class="project">
-        <h2>Bongospil</h2>
-        <p>
-          Her er linket til spillet
-          <a
-            href="https://madsananhansen.github.io/bongo/bongospil/index.html"
-            title="Bongospil"
-            >bongospil</a
-          >
-        </p>
-        <h3>Hvad handler det om?</h3>
-        <p>
-          I andelning med vores forløb
-          <a
-            href="https://github.com/mpsteenstrup/spilLegSamarbejde#idegenerering-og-innovation"
-            title="Spil, Leg og Samarbejde"
-            >Spil, Leg og Samarbejde</a
-          >, skulle vi lave et eller andet spil, der opfylder tre krav:
-        </p>
-        <ul>
-          <li>
-            Kan spilles i af to eller flere personer, der fysisk er i nærheden
-            af hinanden.
-          </li>
-          <li>
-            Involverer et samarbejdende eller konkurrerende element, gerne
-            inspireret af sport.
-          </li>
-          <li>Styres med Makey Makey og ikke direkte fra computeren.</li>
-        </ul>
-        <p>
-          Vi besuttede os derfor, at vi gerne ville lave et simpelt bongo spil,
-          hvor der kommer røde og blå bolde kørende ned, langs en bane. Når
-          disse kugler så kommer hen i et bestemt område skal man slå på enten
-          den venstre bongo (for røde kugler), eller på den højre (for blå
-          kugler). Hver gang man så ramte rigtigt, vil man så få et point.
-        </p>
-        <p>
-          Dette spil var en forsimplet genskabelse af det japanske spil
-          <a
-            href="https://taiko.namco-ch.net/taiko/en/index.php"
-            title="Taiko No Tatsujin"
-            >Taiko No Tatsujin</a
-          >.
-        </p>
-        <h3>Hvordan opfyldte vi kravene?</h3>
-        <p>
-          <strong
-            ><em>Kravet om at flere skulle kunne spille sammen:</em></strong
-          ><br />For at opfylde dette krav, sørgte vi for at der var et
-          pointsystem, i spillet. Man kan derefter sammenligne deres score.
-        </p>
-        <p>
-          <strong
-            ><em
-              >Skal involvere samarbejdende eller konkurrerende element:</em
-            ></strong
-          ><br />
-          Vha. pointsystemet kan spillere både konkurrere med sig selv og med
-          andre, ved at se hvem der kan få den bedste highscore. <br />
-          Hvis man gerne vil samarbejde i spillet, kan man være to om at spille
-          det på samme tid, hvor en har de blå- og den anden har de røde kugler.
-        </p>
-        <p>
-          <strong><em>Skal styres af Makey Makey:</em></strong
-          ><br />
-          For at opfylde dette krav, satte vi først inputsne til spillet, til at
-          være venstre- og højre pil. Derefter lavede vi nogle "bongo trommer"
-          ud af to stykke sølvpapir, viklet rundt om to stykker pap. Man kunne
-          derefter koble Makey Makey til komputeren, og inputtet til højre- og
-          venstre pil, til de to plader. Derefter skulle man koble sig selv til
-          ground, også kunne man spille spillet med Makey Makey.
-        </p>
-        <h3>Mulige forbedringer</h3>
-        <p>Her er en liste over, hvordan vi kan forbedre vores spil:</p>
-        <ol>
-          <li>Der skal være to baner, så to folk kan spille på samme tid</li>
-          <li>
-            Pointsystemet skal forbedres, så man mister point, når man trykker
-            forkert
-          </li>
-          <li>
-            Kuglerne skal tilpasses til noget musik, så man slår på bongoerne i
-            takt med en bestemt sang
-          </li>
-          <li>
-            Vi kan ændre spillet, så man skal træde på pladerne, istedet for at
-            slå på dem. Dette vil spille lidt mere ind på sportelementet i vores
-            krav
-          </li>
-          <li>
-            Der skal være en restart knap, så man ikke skal genindlæse siden
-          </li>
-          <li>Man skal kunne gemme sin highscore</li>
-          <li>
-            Lyden virker kun i liver server, så få lyden til at virke på selve
-            hjemmesiden
-          </li>
-        </ol>
-      </div>
-      <div class="project">
-        <h2>Boston Tour Guide</h2>
-        <p>
-          Her er linket til vores
+        <fieldset>
+          <legend>&nbsp;&nbsp;Bongospil&nbsp;&nbsp;</legend>
+          <details>
+            <summary>
+              <span class="sum-title">Hvad handler det om?</span>
+            </summary>
+            <article>
+              <p>I andelning med vores forløb
+                <a
+                  href="https://github.com/mpsteenstrup/spilLegSamarbejde#idegenerering-og-innovation"
+                  title="Spil, Leg og Samarbejde"
+                  >Spil, Leg og Samarbejde</a
+                >, skulle vi lave et eller andet spil, der opfylder tre krav:</p>
+              <ul>
+                <li>
+                  Kan spilles i af to eller flere personer, der fysisk er i
+                  nærheden af hinanden.
+                </li>
+                <li>
+                  Involverer et samarbejdende eller konkurrerende element, gerne
+                  inspireret af sport.
+                </li>
+                <li>Styres med Makey Makey og ikke direkte fra computeren.</li>
+              </ul>
+              <p>Vi besuttede os derfor, at vi gerne ville lave et simpelt bongo
+                spil, hvor der kommer røde og blå bolde kørende ned, langs en
+                bane. Når disse kugler så kommer hen i et bestemt område skal man
+                slå på enten den venstre bongo (for røde kugler), eller på den
+                højre (for blå kugler). Hver gang man så ramte rigtigt, vil man så
+                få et point.</p>
+              <p>Dette spil var en forsimplet genskabelse af det japanske spil
+                <a
+                  href="https://taiko.namco-ch.net/taiko/en/index.php"
+                  title="Taiko No Tatsujin"
+                  >Taiko No Tatsujin</a
+                >.</p>
+            </article>
+          </details>
+          <details>
+            <summary>
+              <span class="sum-title">Hvordan opfyldte vi kravene?</span>
+            </summary>
+            <article>
+              <p><strong
+                  ><em>Kravet om at flere skulle kunne spille sammen:</em></strong
+                ><br />For at opfylde dette krav, sørgte vi for at der var et
+                pointsystem, i spillet. Man kan derefter sammenligne deres score.</p>
+              <p><strong><em>Skal involvere samarbejdende eller konkurrerende element:</em></strong><br />Vha. pointsystemet kan spillere både konkurrere med sig selv og
+                med andre, ved at se hvem der kan få den bedste highscore.
+                Hvis man gerne vil samarbejde i spillet, kan man være to om at
+                spille det på samme tid, hvor en har de blå- og den anden har de
+                røde kugler.</p>
+              <p><strong><em>Skal styres af Makey Makey:</em></strong><br/>For at opfylde dette krav, satte vi først inputsne til spillet,
+                til at være venstre- og højre pil. Derefter lavede vi nogle "bongo
+                trommer" ud af to stykke sølvpapir, viklet rundt om to stykker
+                pap. Man kunne derefter koble Makey Makey til komputeren, og
+                inputtet til højre- og venstre pil, til de to plader. Derefter
+                skulle man koble sig selv til ground, også kunne man spille
+                spillet med Makey Makey.</p>
+            </article>
+          </details>
+          <details>
+            <summary><span class="sum-title">Mulige forbedringer</span></summary>
+            <article>
+              <p>Her er en liste over, hvordan vi kan forbedre vores spil:</p>
+              <ol>
+                <li>
+                  Der skal være to baner, så to folk kan spille på samme tid
+                </li>
+                <li>
+                  Pointsystemet skal forbedres, så man mister point, når man
+                  trykker forkert
+                </li>
+                <li>
+                  Kuglerne skal tilpasses til noget musik, så man slår på
+                  bongoerne i takt med en bestemt sang
+                </li>
+                <li>
+                  Vi kan ændre spillet, så man skal træde på pladerne, istedet for
+                  at slå på dem. Dette vil spille lidt mere ind på sportelementet
+                  i vores krav
+                </li>
+                <li>
+                  Der skal være en restart knap, så man ikke skal genindlæse siden
+                </li>
+                <li>Man skal kunne gemme sin highscore</li>
+                <li>
+                Lyden virker kun i liver server, så få lyden til at virke på
+                  selve hjemmesiden
+                </li>
+              </ol>
+            </article>
+          </details>
+          <details>
+            <summary><span class="sum-title">Forklaring af koden</span></summary>
+            <article>
+              <p><strong>Hvordan lavede vi cirklerne?</strong></p>
+              <p>Vi lavede cirklerne vha. JS funktionen <code class="code-reference">constructor()</code>.</p>
+              <p>Med denne funktion kan man pre-definere et bestemt slags objekt, hvilket vil sige, at hver gang
+                man caller funktionen, skal man kun indsætte de parameter som funktionen klader for, også laver
+                den et standarieret objekt med de genstande.</p>
+              <p>For at få cirklerne til at bevæge sig, lavede vi en funktion <code class="code-reference">move()</code>, der tog vi hver node der
+                eksisterede, og justerede den langs x-aksen med -5px. Dette vil sige, at den bevægede sig mod venstre.</p>
+              <p>Til sidst lavede vi en funktion <code class="code-reference">display()</code>, der både lavede selve cirklerne, men også farvede den enten
+                rød eller blå. Farven blev valgt ved at JS selv gav hver cirkel værdien 1 eller 2. Hvis værdien er cirklen var
+                1, vil den være rød, og vice versa.</p>
+              <p>Man kan derefter calle hvilken som helst af funktionerne man har brug for, ved at
+                skrive <code class="code-reference">new Note(type, x)</code>, <code class="code-reference">move()</code> eller <code class="code-reference">display()</code></p>
+                <details><summary><em><u>Se kode her:</u></em></summary>
+                  <pre><code class="real-code">
+<span class="purple">class</span> <span class="yellow">Note {</span>
+  <span class="purple">constructor</span><span class="light-purple">(</span><span class="red">type</span><span class="white">, </span><span class="red">x</span><span class="light-purple">) {</span>
+    <span class="purple">this</span><span class="whtie">.</span><span class="red">type</span> <span class="light-blue">=</span> <span class="red">type</span><span class="white">;</span> <span class="grey">// 1 = red, 2 = blue</span>
+    <span class="purple">this</span><span class="white">.</span><span class="red">x</span> <span class="light-blue">=</span> <span class="red">x</span><span class="white">;</span> <span class="grey">// X position of the note</span>
+  <span class="light-purple">}</span>
+
+  <span class="light-blue">move</span><span class="light-purple">() {</span>
+    <span class="purple">this</span><span class="white">.</span><span class="red">x</span> <span class="light-blue">-=</span> <span class="orange">5</span><span class="white">;</span> <span class="grey">// Adjusts the circles x-position by -5px</span>
+  <span class="light-purple">}</span>
+
+  <span class="light-blue">display</span><span class="light-purple">() {</span>
+    <span class="purple">if</span> <span class="blue">(</span><span class="purple">this</span><span class="white">.</span><span class="red">type</span> <span class="light-blue">===</span> <span class="orange">1</span><span class="blue">) {</span>
+      <span class="light-blue">fill</span><span class="light-orange">(</span><span class="orange">255</span><span class="white">,</span> <span class="orange">0</span><span class="white">,</span> <span class="orange">0</span><span class="light-orange">)</span><span class="white">;</span> <span class="grey">// Red note</span>
+    <span class="blue">}</span> <span class="purple">else</span> <span class="blue">{</span>
+      <span class="light-blue">fill</span><span class="light-orange">(</span><span class="orange">0</span><span class="white">,</span> <span class="orange">0</span><span class="white">,</span> <span class="orange">255</span><span class="light-orange">)</span><span class="white">;</span> <span class="grey">// Blue note</span>
+    <span class="blue">}</span>
+    <span class="light-blue">ellipse</span><span class="blue">(</span><span class="purple">this</span><span class="white">.</span><span class="red">x</span><span class="white">,</span> <span class="red">height</span> <span class="light-blue">/</span> <span class="orange">2</span><span class="white">,</span> <span class="orange">50</span><span class="white">,</span> <span class="orange">50</span><span class="blue">)</span><span class="white">;</span>
+  <span class="light-purple">}</span>
+<span class="yellow">}</span>
+                </code></pre>
+                </details>
+                <p><strong>Hvordan ved man om man har trykket rigtigt? (Collision detection)</strong></p>
+                <p>For at se om man rammer rigtigt, lavede vi en funktion der hedder <code class="code-reference">checkHit()</code>. Denne funktion tjekkede om
+                  en kugle først er over regristreringsboksen, ved at finde differencen mellem boksens
+                  og kuglernes position. Derudover tjekker den også selve værdien af kuglen (om den er rød eller blå),
+                  og sammenligner det med spillerens input. Hvis begge disse to konditioner gælder,
+                  så fjernes noden, og ens score øges med 1.</p>
+                  <details><summary><em><u>Se kode her:</u></em></summary>
+                    <pre><code class="real-code">
+<span class="purple">function</span> <span class="light-blue">checkHit</span><span class="yellow">(</span><span class="red">noteType</span><span class="yellow">)</span> <span class="yellow">{</span>
+  <span class="purple">for</span> <span class="light-purple">(</span><span class="purple">let</span> <span class="red">i</span> <span class="light-blue">=</span> <span class="red">notes</span><span class="white">.</span><span class="red">length</span> <span class="light-blue">-</span> <span class="orange">1</span><span class="white">;</span> <span class="red">i</span> <span class="light-blue">>=</span> <span class="orange">0</span><span class="white">;</span> <span class="red">i</span><span class="light-blue">--</span><span class="light-purple">) {</span>
+    <span class="purple">if</span> <span class="blue">(</span><span class="light-blue">abs</span><span class="yellow">(</span><span class="red">notes</span><span class="light-purple">[</span><span class="red">i</span><span class="light-purple">]</span><span class="white">.</span><span class="red">x</span> <span class="light-blue">-</span> <span class="red">hitZoneX</span><span class="yellow">)</span> <span class="light-blue"><</span> <span class="orange">50</span> <span class="light-blue">&&</span> <span class="red">notes</span><span class="yellow">[</span><span class="red">i</span><span class="yellow">]</span><span class="white">.</span><span class="red">type</span> <span class="light-blue">===</span> <span class="red">noteType</span><span class="blue">) {</span>
+      <span class="red">score</span> <span class="light-blue">+=</span> <span class="orange">100</span><span class="white">;</span> <span class="grey">// Correct hit</span>
+      <span class="red">notes</span><span class="white">.</span><span class="light-blue">splice</span><span class="yellow">(</span><span class="red">i</span><span class="white">,</span><span class="orange">1</span><span class="yellow">)</span><span class="white">;</span> <span class="grey">// Remove hit note</span>
+      <span class="purple">break</span><span class="white">;</span>
+    <span class="blue">}</span>
+  <span class="light-purple">}</span>
+<span class="yellow">}</span>
+                  </code></pre>
+                  </details>
+            </article>
+          </details>
+          <p class="link-text">
+            Her er linket til spillet
+            <a
+              href="https://madsananhansen.github.io/bongo/bongospil/index.html"
+              title="Bongospil"
+              >bongospil</a
+            >
+          </p>
+        </div>
+        </fieldset>
+      <div class="project"><fieldset>
+        <legend>&nbsp;&nbsp;Boston Tour Guide&nbsp;&nbsp;</legend>
+        <details>
+          <summary>
+            <span class="sum-title">Hvad handler det om?</span>
+          </summary>
+          <article>
+            <p>text</p>
+          </article>
+        </details>
+        <p class="link-text">Her er linket til vores
           <a
             href="https://madsananhansen.github.io/rysensteen-webteknologier/webteknologier/GCP/index.html"
             >Boston tour guide</a
@@ -155,8 +230,8 @@
           ps. hjemmesiden er egnet til en telefon. Alt ser stadig ud som det
           skal på komputeren, men for den bedste oplevese, anbefales det at den
           åbnes på telefonen. En QR code til hjemmesiden kan findes
-          <a href="qr.html">her</a>.
-        </p>
+          <a href="qr.html">her</a>.</p>
+      </div></fieldset>
       </div>
     </div>
   </body>

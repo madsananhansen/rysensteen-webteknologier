@@ -1,0 +1,38 @@
+.purple{
+  color: rgb(194, 34, 194);
+}
+.light-purple{
+  color: rgb(224, 93, 224);
+}
+
+.red{
+  color: rgb(250, 47, 47);
+}
+
+.white {
+  color: rgb(204, 204, 204);
+}
+
+.blue{
+  color: rgb(112, 112, 255);
+}
+
+.light-blue{
+  color: lightblue;
+}
+
+.grey{
+  color: grey;
+}
+
+.yellow {
+  color: rgb(207, 207, 43);
+}
+
+.orange{
+  color: orange;
+}
+
+.light-orange{
+  color: rgb(255, 200, 97);
+}
