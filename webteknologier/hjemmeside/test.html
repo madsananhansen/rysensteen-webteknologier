@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="projekter.css" />
+    <link rel="stylesheet" href="test.css" />
     <link rel="stylesheet" href="code-color.css">
   </head>
   <body>
@@ -60,7 +60,7 @@
               <p>I andelning med vores forløb
                 <a
                   href="https://github.com/mpsteenstrup/spilLegSamarbejde#idegenerering-og-innovation"
-                  title="Spil, Leg og Samarbejde" target="_blank"
+                  title="Spil, Leg og Samarbejde"
                   >Spil, Leg og Samarbejde</a
                 >, skulle vi lave et eller andet spil, der opfylder tre krav:</p>
               <ul>
@@ -83,7 +83,7 @@
               <p>Dette spil var en forsimplet genskabelse af det japanske spil
                 <a
                   href="https://taiko.namco-ch.net/taiko/en/index.php"
-                  title="Taiko No Tatsujin" target="_blank"
+                  title="Taiko No Tatsujin"
                   >Taiko No Tatsujin</a
                 >.</p>
             </article>
@@ -94,15 +94,15 @@
             </summary>
             <article>
               <p><strong
-                  >Kravet om at flere skulle kunne spille sammen:</strong
+                  ><em>Kravet om at flere skulle kunne spille sammen:</em></strong
                 ><br />For at opfylde dette krav, sørgte vi for at der var et
                 pointsystem, i spillet. Man kan derefter sammenligne deres score.</p>
-              <p><strong>Skal involvere samarbejdende eller konkurrerende element:</strong><br />Vha. pointsystemet kan spillere både konkurrere med sig selv og
+              <p><strong><em>Skal involvere samarbejdende eller konkurrerende element:</em></strong><br />Vha. pointsystemet kan spillere både konkurrere med sig selv og
                 med andre, ved at se hvem der kan få den bedste highscore.
                 Hvis man gerne vil samarbejde i spillet, kan man være to om at
                 spille det på samme tid, hvor en har de blå- og den anden har de
                 røde kugler.</p>
-              <p><strong>Skal styres af Makey Makey:</strong><br/>For at opfylde dette krav, satte vi først inputsne til spillet,
+              <p><strong><em>Skal styres af Makey Makey:</em></strong><br/>For at opfylde dette krav, satte vi først inputsne til spillet,
                 til at være venstre- og højre pil. Derefter lavede vi nogle "bongo
                 trommer" ud af to stykke sølvpapir, viklet rundt om to stykker
                 pap. Man kunne derefter koble Makey Makey til komputeren, og
@@ -206,7 +206,7 @@
             Her er linket til spillet
             <a
               href="https://madsananhansen.github.io/bongo/bongospil/index.html"
-              title="Bongospil" target="_blank"
+              title="Bongospil"
               >bongospil</a
             >
           </p>
@@ -219,79 +219,18 @@
             <span class="sum-title">Hvad handler det om?</span>
           </summary>
           <article>
-            <p>Efter vores 3.g studieture, og i andledning med vore forløb <a href="https://github.com/mpsteenstrup/webteknologier?tab=readme-ov-file#projektbeskrivelse-gcp-rejse-app-til-kommende-rejseklasser" target="_blank">webteknologier</a>, skal vi nu hjælpe fremtidige RYS-elever få den bedste studietur muligt. Vi skal derfor lave en hjemmeside egent
-              til telefonen, der kan give dem alle nødvændige informationer om destinationen.</p>
-            <p>Denne hjemmeside havde en række krav den skulle opfylde:
-              <ul>
-                <li>En hoveside med en kort introduktion af destinationen.</li>
-                <li>Link og undersider med relevant information</li>
-                <li>Overskrift og afsnit.</li>
-                <li>Billeder eller videoer.</li>
-                <li>Styling med brug af CSS</li>
-              </ul>
-            </p>
-          </article>
-        </details>
-        <details>
-          <summary class="sum-title">Forklaring af designvalg og kode</summary>
-          <article>
-            <p><strong>Valg af farver:</strong></p>
-            <p>Til denne hjemmeside vil vi gerne have en farvepalet, der både var interresant og let at kigge på. Det
-            skulle ikke være noget der skar i øjnene, men stadig noget der kunne skabe en smule kontrast. Vi fandt
-            derfor denne farvepalette online:</p>
-            <img class="drop-img" src="billeder/colorpalette.jpeg" alt="">
-            <p>Vi brugte den mørkeste farve til vores topnav, den lyseste til baggrunden, den næst mørkste til div
-              baggrundene og den gule til accents som f.eks tekstfarve. Vi kunne på den måde skabe en smule kontrast
-              mellem de forskællige elementer af hjemmesiden, uden at overstimulere seeren.</p>
-            <p><strong>Billedlayout:</strong></p>
-            <p>Da vi skulle lave vores side med billeder fra Boston, gad vi ikke at have et kedeligt billedegalleri
-              brugte vi css enheden <code class="code-reference">columns</code>, til vores layout. Vha. denne enhed, blev billederne opstilled i to
-              kolonner, istedet for en standard grid. Denne kommando, samt brugen af både portrait og landscape
-              billeder, så billeder blev forskudt.</p>
-              <details>
-                <summary><em><u>Se kode her:</u></em></summary>
-<pre><code class="real-code">
-<span class="grey">/* HTML */</span>
-<span class="white"><</span><span class="red">div</span> <span class="orange">class</span><span class="white">="</span><span class="green">layout-container</span><span class="white">"></span>
-  <span class="white"><</span><span class="red">img</span> <span class="orange">src</span><span class="white">="</span><span class="green">billede-1</span><span class="white">"></span>
-  <span class="white"><</span><span class="red">img</span> <span class="orange">src</span><span class="white">="</span><span class="green">billede-2</span><span class="white">"></span>
-  <span class="white"><</span><span class="red">img</span> <span class="orange">src</span><span class="white">="</span><span class="green">billede-3</span><span class="white">"></span>
-  <span class="white"><</span><span class="red">img</span> <span class="orange">src</span><span class="white">="</span><span class="green">billede-4</span><span class="white">"></span>
-  <span class="white"><</span><span class="red">img</span> <span class="orange">src</span><span class="white">="</span><span class="green">billede-5</span><span class="white">"></span>
-  <span class="white"><</span><span class="red">img</span> <span class="orange">src</span><span class="white">="</span><span class="green">billede-6</span><span class="white">"></span>
-  <span class="white"><</span><span class="red">img</span> <span class="orange">src</span><span class="white">="</span><span class="green">billede-7</span><span class="white">"></span>
-  <span class="white"><</span><span class="red">img</span> <span class="orange">src</span><span class="white">="</span><span class="green">billede-8</span><span class="white">"></span>
-  <span class="white"><</span><span class="red">img</span> <span class="orange">src</span><span class="white">="</span><span class="green">billede-9</span><span class="white">"></span>
-<span class="white"><&#47</span><span class="red">div</span><span class="white">></span>
-
-<span class="grey">/* CSS */</span>
-<span class="white">.</span><span class="orange">layout-container</span> <span class="yellow">{</span>
-  <span class="red">column-count</span><span class="whtie">:</span> <span class="orange">2</span><span class="white">;</span>
-  <span class="red">column-gap</span><span class="whtie">:</span> <span class="orange">10px</span><span class="white">;</span>
-  <span class="red">margin</span><span class="whtie">:</span> <span class="orange">0 10px 0 10px</span><span class="white">;</span>
-  <span class="red">overflow-x</span><span class="whtie">:</span> <span class="green">hidden</span><span class="white">;</span>
-<span class="yellow">}</span>
-
-<span class="white">.</span><span class="orange">layout-container</span> <span class="yellow">img {</span>
-  <span class="red">width</span><span class="whtie">:</span> <span class="orange">100%</span><span class="white">;</span>
-  <span class="red">border-radius</span><span class="whtie">:</span> <span class="orange">14px</span><span class="white">;</span>
-  <span class="red">margin-bottom</span><span class="whtie">:</span> <span class="orange">10px</span><span class="white">;</span>
-<span class="yellow">}</span>
-</code></pre>
-              </details>
-            <p><strong>Cards display:</strong></p>
-            <p>I vores </p>
+            <p>text</p>
           </article>
         </details>
         <p class="link-text">Her er linket til vores
           <a
-            href="https://madsananhansen.github.io/rysensteen-webteknologier/webteknologier/GCP/index.html" target="_blank"
+            href="https://madsananhansen.github.io/rysensteen-webteknologier/webteknologier/GCP/index.html"
             >Boston tour guide</a
           >. <br />
           ps. hjemmesiden er egnet til en telefon. Alt ser stadig ud som det
           skal på komputeren, men for den bedste oplevese, anbefales det at den
           åbnes på telefonen. En QR code til hjemmesiden kan findes
-          <a href="qr.html" target="_blank">her</a>.</p>
+          <a href="qr.html">her</a>.</p>
       </div></fieldset>
       </div>
     </div>
