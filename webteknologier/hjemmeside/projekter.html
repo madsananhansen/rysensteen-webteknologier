@@ -212,6 +212,7 @@
           </p>
         </div>
         </fieldset>
+        
       <div class="project"><fieldset>
         <legend>&nbsp;&nbsp;Boston Tour Guide&nbsp;&nbsp;</legend>
         <details>
@@ -248,7 +249,7 @@
               brugte vi css enheden <code class="code-reference">columns</code>, til vores layout. Vha. denne enhed, blev billederne opstilled i to
               kolonner, istedet for en standard grid. Denne kommando, samt brugen af både portrait og landscape
               billeder, så billeder blev forskudt.</p>
-              <details>
+              <details class="decode">
                 <summary><em><u>Se kode her:</u></em></summary>
 <pre><code class="real-code">
 <span class="grey">/* HTML */</span>
@@ -280,8 +281,46 @@
 </code></pre>
               </details>
             <p><strong>Cards display:</strong></p>
-            <p>I vores </p>
-          </article>
+            <p>På vores underside "aktiviteter", hvade vi en lang række ting vi gerne vil vise. For at forsimple designet, og sørge for at hjemmesiden ikke ser helt rodet ud, besluttede vi os for at lave
+              et cards display. Dette vil sige, at vi havde en række kort, hvor man så med fingeren, kan scrolle mellem dem. Vi kunne derefter have mange af disse cards displays, og kategorisere dem.</p>
+              <details class="decode">
+                <summary><em><u>Se kode her:</u></em></summary>
+<pre><code class="real-code">
+<span class="grey">/* HTML */</span>
+<span class="grey"><</span><span class="red">h2</span><span class="grey">></span><span class="whtie">Steder at spise</span><span class="grey"><&#47</span><span class="red">h2</span><span class="grey">></span>
+<span class="grey"><</span><span class="red">div</span> <span class="orange">class</span><span class="grey">="</span><span class="green">wrapper</span><span class="grey">"></span>
+  <span class="grey"><</span><span class="red">div</span> <span class="orange">class</span><span class="grey">="</span><span class="green">card</span><span class="grey">"></span>
+    <span class="grey"><</span><span class="red">h3</span><span class="grey">></span><span class="whtie">Luke's Lobster</span><span class="grey"><&#47</span><span class="red">h3</span><span class="grey">></span>
+    <span class="grey"><</span><span class="red">p</span><span class="grey">></span><span class="whtie">Lidt info om Luke's Lobster</span><span class="grey"><&#47</span><span class="red">p</span><span class="grey">></span>
+  <span class="grey"><&#47</span><span class="red">div</span><span class="grey">></span>
+  <span class="grey"><</span><span class="red">div</span> <span class="orange">class</span><span class="grey">="</span><span class="green">card</span><span class="grey">"></span>
+    <span class="grey"><</span><span class="red">h3</span><span class="grey">></span><span class="whtie">Chipotle</span><span class="grey"><&#47</span><span class="red">h3</span><span class="grey">></span>
+    <span class="grey"><</span><span class="red">p</span><span class="grey">></span><span class="whtie">Lidt info om Chipotle</span><span class="grey"><&#47</span><span class="red">p</span><span class="grey">></span>
+  <span class="grey"><&#47</span><span class="red">div</span><span class="grey">></span>
+  <span class="grey"><</span><span class="red">div</span> <span class="orange">class</span><span class="grey">="</span><span class="green">card</span><span class="grey">"></span>
+    <span class="grey"><</span><span class="red">h3</span><span class="grey">></span><span class="whtie">Dunkin Doughnuts</span><span class="grey"><&#47</span><span class="red">h3</span><span class="grey">></span>
+    <span class="grey"><</span><span class="red">p</span><span class="grey">></span><span class="whtie">Lidt info om Dunkin Doughnuts</span><span class="grey"><&#47</span><span class="red">p</span><span class="grey">></span>
+  <span class="grey"><&#47</span><span class="red">div</span><span class="grey">></span>
+<span class="grey"><&#47</span><span class="red">div</span><span class="grey">></span>
+
+<span class="grey">/* CSS */</span>
+<span class="white">.</span><span class="orange">wrapper</span> <span class="yellow">{</span>
+  <span class="red">display</span><span class="whtie">:</span> <span class="orange">flex</span><span class="white">;</span>
+  <span class="red">gap</span><span class="whtie">:</span> <span class="orange">20px</span><span class="white">;</span>
+  <span class="red">padding-left</span><span class="whtie">:</span> <span class="orange">30px</span><span class="white">;</span>
+  <span class="red">padding-right</span><span class="whtie">:</span> <span class="orange">30px</span><span class="white">;</span>
+  <span class="red">overflow-x</span><span class="whtie">:</span> <span class="green">scroll</span><span class="white">;</span>
+  <span class="red">scroll-snap-type</span><span class="whtie">:</span> <span class="green">x mandatory</span><span class="white">;</span>
+  <span class="red">margin</span><span class="whtie">:</span> <span class="green">auto</span><span class="white">;</span>
+<span class="yellow">}</span>
+
+<span class="white">.</span><span class="orange">wrapper</span><span class="grey">::</span> <span class="orange">-webkit-scrollbar</span> <span class="yellow">{</span>
+  <span class="red">display</span><span class="whtie">:</span> <span class="orange">none</span><span class="white">;</span>
+<span class="yellow">}</span>
+</code></pre>
+
+              </details>
+            </article>
         </details>
         <p class="link-text">Her er linket til vores
           <a
@@ -292,6 +331,66 @@
           skal på komputeren, men for den bedste oplevese, anbefales det at den
           åbnes på telefonen. En QR code til hjemmesiden kan findes
           <a href="qr.html" target="_blank">her</a>.</p>
+      </div></fieldset>
+      <div class="project"><fieldset>
+        <legend>&nbsp;&nbsp;PixelPaint&nbsp;&nbsp;</legend>
+        <details>
+          <summary>
+            <span class="sum-title">Hvad handler det om?</span>
+          </summary>
+          <article>
+            <p>I vores forløb <a href="https://github.com/mpsteenstrup/Billedmanipulation">billedmanipulation</a> skulle vi lave et billedemanipulationsprogram, hvor man kan manipulere pixelsne på et billede, på pixelniveau.
+            Vores program skulle kunne opfylde en hvis række krav:
+          <ul>
+            <li>Kan redigere et billede ved manipulation på pixelniveau</li>
+            <li>Kan tilføje effekter</li>
+            <li>Bestemme hvad der er kerne- og sekundære-faciliteter</li>
+            <li>Udføre en brugertest og en tilretning af projektet</li>
+          </ul></p>
+          </article>
+        </details>
+        <details>
+          <summary class="sum-title">Hvordan opfyldte vi vores krav</summary>
+          <article>
+            <p><strong>Kan redigere et billede på pixledniveau</strong></p>
+            <p>For at opfylde dette krav, sikrede vi os at vi kunne tegne en streg der fulgte vores mus, og dermed override pixedværdien i en bestemt radius rundt om musets position.</p>
+            <p>Den nedstående kodestump tager musens tideligere og nuværende position, og tegner en strej imellem dem</p>
+            <details class="decode">
+              <summary><em><u>Se kode her:</u></em></summary>
+<pre><code class="real-code">
+<span class="purple">function</span> <span class="blue">mouseDragged</span><span class="yellow">(){</span>
+  <span class="blue">stroke</span><span class="purple">(<span class="white"><span class="red">vRed</span>, <span class="red">vGreen</span>, <span class="red">vBlue</span></span>)</span>
+  <span class="blue">line</span><span class="purple">(<span class="white"><span class="red">pmouseX</span>, <span class="red">pmouseY</span>, <span class="red">mouseX</span>, <span class="red">mouseY</span></span>)</span>
+<span class="yellow">}</span>
+</code></pre>
+            </details>
+            <p><strong>Kan tilføje effekter</strong></p>
+            <p>De effekter vi kunne tilføje, var selve farven og størrelsen af vores strokes, hvilket blev gjordt vha. nogle knapper der linkede til bestemte funktioner, samt en slider, der kan variere stroke tykkelsen</p>
+            <p>I den nedstående kode, ser vi hvordan farven ændres til f.eks rød</p>
+            <details class="decode">
+              <summary><em><u>Se kode her:</u></em></summary>
+<pre><code class="real-code">
+<span class="purple">function</span> <span class="blue">colorRed</span><span class="yellow">(){</span>
+  <span class="red">vRed</span> <span class="light-blue">=</span> <span class="orange">255</span><span class="white">;</span>
+  <span class="red">vGreen</span> <span class="light-blue">=</span> <span class="orange">0</span><span class="white">;</span>
+  <span class="red">vBlue</span> <span class="light-blue">=</span> <span class="orange">0</span><span class="white">;</span>
+  <span class="yellow">}</span>
+</code></pre>
+</details>
+            <p><strong>Bestemme kerne- og sekundære faciliteter</strong></p>
+            <p>Vores primære funktion til dette program var, at den skulle tegne en simpel streg, den streg skulle kunne slettes, og vi skulle gemme billedet</p>
+            <p>Derudover er vores sekundære funktioner, det med at man kunne ændre farven og stroke size</p>
+            
+            <p><strong>Udføre en brugertest, og og tilrette vores program</strong></p>
+            <p>Vi fik lavet en brugertest, hvor vi fik noget dejligt feedback, som at vi skulle have nogle presets til f.eks filtre (som vi egentligt allerede havde planer om at lave),
+              derudover sagde de at det ville være dejligt, hvis der var flere farvemuligheder. Vi havde faktisk i forvejen lavet en HUE-farveselector, men har bare ikke haft muligheden
+              for at implementere den.</p>
+</details>
+        <p class="link-text">Her er linket til vores
+          <a
+            href="https://madsananhansen.github.io/PixelPencil/Billed%20tegning/index.html" target="_blank"
+            >Tegne Program</a
+          >.</p>
       </div></fieldset>
       </div>
     </div>
